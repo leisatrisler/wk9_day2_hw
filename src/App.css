@@ -5,38 +5,32 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #ea64ffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #0d0d0daa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
 .card {
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
+.flash-message {
+  background-color: #f806c8;
+  border: 1px solid #f806c8;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.flash-message h2 {
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+
+.flash-message p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.flash-message-active {
+  background-image: url('./images/rick.png');
+  background-size: cover;
+}
+
+.list-color-change {
+  color:#f806c8
 }
